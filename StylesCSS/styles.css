@@ -1,0 +1,16 @@
+.navbar-color {
+    background-color: #443068;
+    color: azure;
+}
+
+.text-coloring{
+    color: #fffde7;
+}
+
+.text-fontcolor-nav{
+    font-family: 'CoventryGarden';
+    src: url(fonts/COVENTRY.TTF) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    color: #fcff66;
+}
