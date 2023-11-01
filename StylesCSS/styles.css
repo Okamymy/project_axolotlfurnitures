@@ -14,3 +14,25 @@
     font-weight: normal;
     color: #fcff66;
 }
+
+.text-promo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.padeo{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.color-footer{
+    background-color: #443068;
+}
+
+.imagen-size {
+    width: 200px; /* Cambia el valor al ancho deseado en píxeles o % */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+  }
