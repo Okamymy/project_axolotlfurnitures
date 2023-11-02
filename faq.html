@@ -8,7 +8,7 @@
     <link rel="icon" type="image-x'icon" href="favicon.ico">
     <title>FAQ</title>
 </head>
-<body>
+<body style="background-color: lightyellow;">
     <nav class="navbar navbar-expand-lg navbar-color">
         <div class="container-fluid">
                 <a class="navbar-brand text-fontcolor-nav" href="index.html">
@@ -37,10 +37,11 @@
         </div>
       </nav>
 
+      <!-- acordeon de FAQ -->
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button text-format-perso" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               ¿Quien es Axolotl Furniture?
             </button>
           </h2>
@@ -52,30 +53,75 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="accordion-button collapsed text-format-perso" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               ¿Cual es nuestra mision y vision?
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <strong>Ser el principal exponente de la venta de muebles en linea.</strong> Nuestra misión en Axolotl Furniture es proporcionar a nuestros clientes muebles de alta calidad y soluciones de decoración para el hogar a través de una plataforma en línea conveniente y accesible. Nos comprometemos a ofrecer productos elegantes, funcionales y asequibles que transformen los espacios de nuestros clientes en hogares acogedores y confortables. Valoramos la satisfacción del cliente, la innovación constante y la responsabilidad social como pilares fundamentales de nuestro negocio.
+              En Axolotl Furniture, nuestra visión es convertirnos en el referente líder en la industria de venta de muebles en línea, proporcionando a nuestros clientes una experiencia de compra excepcional y una amplia gama de productos para el hogar que inspiren y enriquezcan sus vidas. Buscamos constantemente la excelencia en la calidad, el diseño y la sostenibilidad, a la vez que fomentamos un entorno de trabajo positivo y colaborativo para nuestro equipo. Aspiramos a ser reconocidos por nuestra contribución a la creación de hogares hermosos y funcionales, al tiempo que mantenemos un compromiso sólido con la responsabilidad ambiental y social.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="accordion-button collapsed text-format-perso" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               ¿Por qué un ajolote?
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <strong>El ajolote como simbolo de revitalizacion.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <!-- carrusel de ajolotes -->
+              <div class="container text-center">
+                <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="images/Ajolotes/axo_1.png" class="d-block ajolotes-size rounded" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="images/Ajolotes/axo_2.png" class="d-block ajolotes-size rounded" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="images/Ajolotes/axo_3.png" class="d-block ajolotes-size rounded" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="images/Ajolotes/axo_4.png" class="d-block ajolotes-size rounded" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
+      <!-- footer -->
+      <footer class="bd-footer py-4 py-md-5 mt-5 color-footer">
+        <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+          <div class="row">
+            <!-- columana 1 -->
+            <div class="col">
+              <br>
+              <img class="imagen-size" src="images/logo/AxolotlFurniture_LogoV3_transparente.png" alt="Logo Axolotl Furniture">
+            </div>
+            <!-- columna 2 -->
+            <div class="col">
+              <p class="h5 text-coloring">Nosotros</p>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a class="link-offset-2 link-underline link-underline-opacity-0" href="faq.html">FAQ</a></li>
+                <li class="mb-2"><a class="link-offset-2 link-underline link-underline-opacity-0" href="servicios.html">Nuestros servicios</a></li>
+              </ul>
+            </div>
+            <!-- columna 3 -->
+            <div class="col">
+              <p class="h5 text-coloring">Una marca de:</p>
+              <img class="imagen-size" src="images/logo/OOwlSOft.png" alt="OOwlSOft_Logo">
+            </div>
+          </div>
+        </div>
+      </footer>
     <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

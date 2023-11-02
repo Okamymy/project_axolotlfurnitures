@@ -15,6 +15,13 @@
     color: #fcff66;
 }
 
+.text-format-perso{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
 .text-promo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
@@ -28,11 +35,20 @@
     padding-bottom: 1em;
 }
 
+.padeo-dos{
+    padding: 10px;
+}
+
 .color-footer{
     background-color: #443068;
 }
 
 .imagen-size {
-    width: 200px; /* Cambia el valor al ancho deseado en píxeles o % */
+    width: 300px; /* Cambia el valor al ancho deseado en píxeles o % */
     height: auto; /* Esto mantiene la proporción original de la imagen */
   }
+
+.ajolotes-size{
+    width: 300px;
+    height: auto;
+}
